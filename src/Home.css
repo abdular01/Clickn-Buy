@@ -1,0 +1,30 @@
+img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.card {
+  cursor: pointer;
+}
+
+
+@keyframes buttonScaleFade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.button-animate {
+  animation: buttonScaleFade 0.5s ease;
+}
