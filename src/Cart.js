@@ -75,7 +75,7 @@ function Cart() {
             ))}
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 mb-5">
           {cartItems.length > 0 && (
             <div className="d-flex flex-column align-items-center justify-content-start mt-3">
               <h3 className="text-start">
