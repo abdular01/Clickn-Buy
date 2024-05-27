@@ -57,7 +57,7 @@ function BuyNow() {
                     type="text"
                     className="form-control"
                     id="name"
-                    // required
+                    required
                   />
                 </div>
                 <div className="mb-3">
@@ -68,7 +68,7 @@ function BuyNow() {
                     type="email"
                     className="form-control"
                     id="email"
-                    // required
+                    required
                   />
                 </div>
                 <div className="mb-3">
@@ -79,14 +79,14 @@ function BuyNow() {
                     className="form-control"
                     id="address"
                     rows="3"
-                    // required
+                    required
                   ></textarea>
                 </div>
                 <div className="mb-3">
                   <label htmlFor="payment" className="form-label">
                     Payment Method
                   </label>
-                  <select className="form-select" id="payment">
+                  <select className="form-select" id="payment" required>
                     <option value="">Select Payment Method</option>
                     <option value="cod">Cash on Delivery</option>
                   </select>
