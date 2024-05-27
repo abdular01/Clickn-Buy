@@ -25,7 +25,7 @@ function ViewProducts() {
     }
 
     getApiData();
-  }, []);
+  }, [selectedProductID]);
 
   function addToCart(item) {
     setCartItems((prev) => [...prev, item]);
