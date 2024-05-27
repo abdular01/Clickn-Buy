@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { cartContext } from "./App";
 
 function Orders() {
-  const { orderedItems, setOrderedItems } = useContext(cartContext);
+  const { orderedItems } = useContext(cartContext);
 
   console.log(orderedItems);
 

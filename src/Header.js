@@ -6,7 +6,7 @@ import { cartContext } from "./App";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Header() {
-  let { cartItems, setCartItems } = useContext(cartContext);
+  let { cartItems} = useContext(cartContext);
 
   return (
     <nav className="navbar navbar-expand-sm bg-primary">
