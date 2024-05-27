@@ -89,7 +89,7 @@ function Cart() {
         </div>
         {cartItems.length < 1 && (
           <div
-            style={{ height: "80vh" }}
+            style={{ height: "70vh" }}
             className="d-flex align-items-center justify-content-center"
           >
             <h3>
